@@ -1,0 +1,21 @@
+.parent{
+    background-color: rgb(49, 245, 245);
+    position: relative;
+    height: 200vh;
+}
+
+.child-one{
+    background-color: #adff2f;
+    position: sticky;
+    /* By default fixed position is relative but when it is scrolled down it becomes sticky */
+    top: 0px;
+    right: 0px;
+}
+
+.child-two{
+    background-color: tomato;
+}
+
+.child-three{
+    background-color: blueviolet;
+}

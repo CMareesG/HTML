@@ -1,0 +1,20 @@
+.parent{
+    background-color: rgb(49, 245, 245);
+}
+
+.child-one{
+    /* While using position relative it no longer be with the document flow and it is removed from the statically positioned elements */
+    /* Other elements if not positioned relative will not move down */
+    background-color: greenyellow;
+    position: relative;
+    /*left: 10px;*/ /*move the element left by 10px*/
+    top: 100px;/*move the element down by 10px*/
+}
+
+.child-two{
+    background-color: tomato;
+}
+
+.child-three{
+    background-color: blueviolet;
+}

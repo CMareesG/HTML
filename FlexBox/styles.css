@@ -1,0 +1,63 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* flex-wrap: wrap;/* changes the size of the container according to the size of the page* */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* align-content: center; */ 
+
+
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+
+    background-color: #7fffd4;
+    margin: 250px 0px 250px 0px;
+    /* height: 800px; */
+}
+
+.i{
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 60px;
+}
+.flexbox-item{
+    width: 200px;
+    margin: 20px;
+    border: 3px solid #222;
+    background-color: aliceblue;
+}
+
+.flexbox-item:hover{
+    background-color: antiquewhite;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    flex-shrink: 0; /*Does not shrink the box*/
+    align-self: flex-end;
+    order: 3; /*changes the order of the box in the container*/
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+    flex-grow: 2;
+    flex-basis: 0;/*grows the box when the webpage is grown*/
+    align-self: center; /*align-self override the content of the property*/
+    order:1;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+    flex-grow: 1;
+    flex-basis:0;/*grows the box when the webpage is grown*/
+    order: 2;
+}
